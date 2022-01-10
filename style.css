@@ -1,17 +1,13 @@
-* {
-    font-family: 'Jua', 'Consolas';
-}
-
 body {
     height: 90vh;
-    background-color: cornflowerblue;
+    background-color: #6495ed;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-
 #main {
-    width: 640px;
+    width: 600px;
     height: 240px;
     background-color: white;
     border-radius: 120px;
@@ -19,7 +15,15 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 h1 {
-    font-size: 48px;
+    font-size: 72px;
+    font-family: 'Pacifico';
+    margin: 0;
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
 }
+h2 { font-size: 44px; font-family: 'Jua'; }
