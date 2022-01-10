@@ -13,7 +13,7 @@ setInterval(() => {
     let ap = '';
     
     if (hour < 12) ap = 'AM'; else ap = 'PM';
-    hour = format(hour % 12);
+    hour = format(hour);
 
     watch.innerHTML = `${ap} ${hour}:${min}:${sec}.${msc}`;
 }, 100);
